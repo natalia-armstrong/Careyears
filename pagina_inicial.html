@@ -9,26 +9,25 @@
 </head>
 <body>
     <header>
-        <nav>
-            <img src="images/logo.png">
-            <a href="/index.html">Careyears</a>
-            <a href="paginaInicial">Pagina Inicial</a>
-            <a href="sobreNos">Sobre Nós</a>
-            <a href="dass21">DASS-21</a>
-            <a href="cadastro">Cadastre-se</a>
-            <a href="entrar">Entrar</a>
-        </nav>
-        <div></div>
+        <a href="paginaInicial" id="logo-content">
+            <img src="images/logo.png" id="logo-image">
+            <div>Careyears</div>
+        </a>
+        <div id="nav-buttons">   
+            <a href="paginaInicial" class="nav-button">Pagina Inicial</a>
+            <a href="sobreNos" class="nav-button">Sobre Nós</a>
+            <a href="dass21" class="nav-button">DASS-21</a>
+            <a href="cadastro" class="nav-button">Cadastre-se</a>
+            <a href="entrar" id="login" class="nav-button">Entrar</a>
+        </div>
     </header>
+    <h1 id="video-title">COMO UTILIZAR A PLATAFORMA</h1>
     <div id="videos-conteiner">
-        <h1 id="video-title">COMO UTILIZAR A PLATAFORMA</h1>
-        <div><i class="bi bi-chevron-left"></i></div>
-        <img src="images/video_introducao.png">
-        <div><i class="bi bi-chevron-right"></i></div>
+        <div id="previous" class="video-buttons"><i class="bi bi-chevron-left"></i></div>
+        <img src="images/video_introducao.png" id="video">
+        <div id="next" class="video-buttons"><i class="bi bi-chevron-right"></i></div>
     </div>
-    <div id="iniciar">
-        <a href="startTest">Iniciar Teste</a>
-    </div>
+    <a href="startTest" id="start-button">Iniciar Teste</a>
     <footer>
         <div id="socialMidia">
             <img src="images/instagram_icon.png">
