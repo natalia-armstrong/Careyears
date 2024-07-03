@@ -1,9 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
 body {
     background-color: #F7F7F7;
     color: #139BD0;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 header {
@@ -13,8 +19,8 @@ header {
 }
 
 #logo-image {
-    width: 120px;
-    margin: 0em 0em 0em 1em;
+    width: 110px;
+    margin: 0.5em 0em 0em 1.5em;
     padding-left: 20px;
 }
 
@@ -34,7 +40,7 @@ header {
 #login {
     background-color: #69CF67;
     border-radius: 30px;
-    padding: 10px 40px 10px 40px;
+    padding: 8px 35px 8px 35px;
     color: #F7F7F7;
     font-weight: bold;
 }
@@ -45,13 +51,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0.5em 4em 0em 4em;
+    margin: 0em 2em 0em 2em;
 }
 
 #videos-conteiner {
     display: flex;
     flex-direction: column;
-    margin: 2em;
+    margin: 0.8em;
     margin-top: 3em;
 }
 
@@ -75,7 +81,7 @@ header {
 }
 
 #video {
-    width: 600px;
+    width: 550px;
 }
 
 #start-button {
@@ -87,9 +93,67 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px 0px 15px 0px;
-    margin: 0.3em 26em 2em 26em;
+    padding: 15px 0px 10px 0px;
+    margin: 0.5em 26em 1em 26em;
     border-radius: 30px;
     letter-spacing: 2px;
     box-shadow: 0px 2px 15px rgba(128, 128, 128, 0.412);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    background-color: #F3E184; 
+    margin-top: 1.9em;
+}
+
+#contact-infos {
+    display: flex;
+    flex-direction: column;
+}
+
+#social-midia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0em 0.7em 0em;
+}
+
+.social-icons {
+    width: 30px;
+    height: 30px;
+    padding: 0px 30px 0px 30px;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#phone-conteiner {
+    display: flex;
+    justify-content:space-between;
+    margin-right: 10px;
+}
+
+#email-conteiner {
+    display: flex;
+    justify-content:space-between;
+    margin-left: 10px;
+}
+
+.contact-icons {
+    margin-right: 6px;
+}
+
+#end-page {
+    display: flex;
+    background-color: #139BD0;
+    color: #F7F7F7;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 50px 0px 50px;
 }
