@@ -1,0 +1,1 @@
+const optionOne = document.getElementByClass('start-test')
